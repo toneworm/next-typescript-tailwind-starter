@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  font-family: 'Bitter', serif;
+  @apply bg-gray-900 text-white;
+}
+
+.container {
+  @apply mx-auto w2/3 px-2 max-w-none;
+}
