@@ -2,7 +2,7 @@
 import React, { FunctionComponent } from 'react'
 // import Router from 'next/router'
 // import { fetchTeamData } from '../utils/api'
-// import './index.scss'
+import './index.scss'
 
 type Props = {
   Component: FunctionComponent,

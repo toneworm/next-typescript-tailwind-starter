@@ -4,9 +4,9 @@
 
 body {
   font-family: 'Bitter', serif;
-  @apply bg-gray-900 text-white;
+  @apply bg-gray-900 font-bold text-white;
 }
 
 .container {
-  @apply mx-auto w2/3 px-2 max-w-none;
+  @apply mx-auto w-2/3 pt-10 max-w-none;
 }
