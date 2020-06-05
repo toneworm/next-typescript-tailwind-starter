@@ -2,7 +2,7 @@ import React from 'react'
 import { AppProps } from 'next/app'
 // import Router from 'next/router'
 // import { MyContext } from '../context/MyContext'
-import '../src/index.scss'
+import '../scss/index.scss'
 
 function _App({ Component, pageProps }: AppProps) {
   return (
