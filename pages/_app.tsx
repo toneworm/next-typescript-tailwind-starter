@@ -1,19 +1,14 @@
-// import { LeagueDataContext } from '../context/LeagueDataContext'
-import React, { FunctionComponent } from 'react'
+import React from 'react'
+import { AppProps } from 'next/app'
 // import Router from 'next/router'
-// import { fetchTeamData } from '../utils/api'
-import './index.scss'
+// import { MyContext } from '../context/MyContext'
+import '../src/index.scss'
 
-type Props = {
-  Component: FunctionComponent,
-  pageProps: any
-}
-
-function _App({ Component, pageProps }: Props) {
+function _App({ Component, pageProps }: AppProps) {
   return (
-    // <LeagueDataContext.Provider value={pageProps}>
+    // <MyContext.Provider value={pageProps}>
       <Component {...pageProps} />
-    // </LeagueDataContext.Provider>
+    // </MyContext.Provider>
   )
 }
 
@@ -29,7 +24,7 @@ function _App({ Component, pageProps }: Props) {
 //     return { pageProps: __NEXT_DATA__.props.pageProps }
 //   }
 
-//   const data = await fetchTeamData()
+//   const data = await fetchSomeData()
   
 //   return { pageProps: data }
 // }
